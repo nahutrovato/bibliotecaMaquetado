@@ -1,0 +1,107 @@
+body{
+    font-family: 'Redressed', cursive;
+    background-color:#9F4506;
+}
+ul{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+h1{
+    text-align: center;
+    color: #9F4506;
+}
+li{
+    width: 100%;
+    border-radius: 20px;
+    display:inline;
+    margin: 15vw; 
+    color: #e36414;
+    font-size: 5vh;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+}
+img{
+    width: auto;
+    height: 30vh;
+}
+a{
+    color:white; 
+    text-decoration: none;
+}
+#encabezado{
+    background-image: url(../img/imagenHeader.jpg);
+    opacity: 80%;
+    width: 80%;
+    height: 35vh;
+    margin-left: 10%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.titulosTemas{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+}
+.temasDestacados{
+    background-color: #0f4c5c;
+    border-radius: 20px;
+    margin:0.50vw;
+    width: 80vw;
+    text-align: center;
+}
+.temasDestacados:hover{
+    width: 90vw;
+}
+.cienciaFiccion{
+    background-color: green;
+    border-radius: 20px;
+    margin:0.50vw;
+    width: 80vw;
+    text-align: center;
+}
+.terror{
+    background-color: grey;
+     border-radius: 20px;
+    margin:0.50vw;
+    width: 80vw;
+    text-align: center;
+}
+.policiales{
+    background-color: black;
+    border-radius: 20px;
+    margin:0.50vw;
+    width: 80vw;
+    text-align: center;
+    color: white;
+}
+.aventura{
+    background-color: #0f4c5c;
+    border-radius: 20px;
+    margin:0.50vw;
+    width: 80vw;
+    text-align: center;
+    color: white;
+}
+.temasIndividuales{
+    display:flex;
+    flex-direction: column;
+}
+.muestraPar{
+    display: flex;
+    flex-direction: row;
+}
+.locales{
+    text-align: center;
+    color: whitesmoke;
+}
+.localesTotales{
+    display: flex;
+    flex-direction: column;
+}
